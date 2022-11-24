@@ -1,0 +1,166 @@
+Id	Name	Type	Power	Pp	Accuracy	Priority	Effect	Effect Chance
+1	Pound	Normal	40	35	100	0		
+2	Karate Chop	Normal	50	25	100	0	Higher crit	
+3	DoubleSlap	Normal	15	10	85	0	Hits 2-5 times	
+4	Comet Punch	Normal	18	15	85	0	Hits 2-5 times	
+5	Mega Punch	Normal	80	20	85	0		
+6	Pay Day	Normal	40	20	100	0	Extra money	
+7	Fire Punch	Fire	75	15	100	0	Burn	10
+8	Ice Punch	Ice	75	15	100	0	Freeze	10
+9	ThunderPunch	Electric	75	15	100	0	Paralyze	10
+10	Scratch	Normal	40	35	100	0		
+11	ViceGrip	Normal	55	30	100	0		
+12	Guillotine	Normal		5	30	0	Ohko	
+13	Razor Wind	Normal	80	10	100	0		
+14	Swords Dance	Normal		30		0	+attack 2	
+15	Cut	Normal	50	30	95	0		
+16	Gust	Normal	40	35	100	0		
+17	Wing Attack	Flying	35	35	100	0		
+18	Whirlwind	Normal		20	85	-6	Forces flee	
+19	Fly	Flying	70	15	95	0	Charges up, dodge	
+20	Bind	Normal	15	20	75	0	Traps	100
+21	Slam	Normal	80	20	75	0		
+22	Vine Whip	Grass	35	10	100	0		
+23	Stomp	Normal	65	20	100	0	Flinch	30
+24	Double Kick	Fighting	30	30	100	0	Hits twice	
+25	Mega Kick	Normal	120	5	75	0		
+26	Jump Kick	Fighting	70	25	95	0	Miss inflicts self damage	
+27	Rolling Kick	Fighting	60	15	85	0	Flinch	30
+28	Sand Attack	Normal		15	100	0	-target accuracy	
+29	Headbutt	Normal	70	15	100	0	Flinch	30
+30	Horn Attack	Normal	65	25	100	0		
+31	Fury Attack	Normal	15	20	85	0	Hits 2-5 times	
+32	Horn Drill	Normal		5	30	0	Ohko	
+33	Tackle	Normal	35	35	95	0		
+34	Body Slam	Normal	85	15	100	0	Paralyze	30
+35	Wrap	Normal	15	20	85	0	Traps	100
+36	Take Down	Normal	90	20	85	0	Recoil 25%	
+37	Thrash	Normal	90	20	100	0	Hits for 2-3 turns, user confused	
+38	Double-Edge	Normal	100	15	100	0	25% recoil	
+39	Tail Whip	Normal		30	100	0	-target defense	
+40	Poison Sting	Poison	15	35	100	0	Poison	30
+41	Twineedle	Bug	25	20	100	0	Hits twice, poison	20
+42	Pin Missile	Bug	14	20	85	0	Hits 2-5 times	
+43	Leer	Normal		30	100	0	-target defense	
+44	Bite	Normal	60	25	100	0	Flinch	30
+45	Growl	Normal		40	100	0	-target attack	
+46	Roar	Normal		20	100	-6	Forces flee	
+47	Sing	Normal		15	55	0	Sleep	
+48	Supersonic	Normal		20	55	0	Confuse	
+49	SonicBoom	Normal		20	90	0	Does 20 damage	
+50	Disable	Normal		20	55	0	Disables	
+51	Acid	Poison	40	30	100	0	-target defense	10
+52	Ember	Fire	40	25	100	0	Burn	10
+53	Flamethrower	Fire	95	15	100	0	Burn	10
+54	Mist	Ice		30		0	Protects stat changes	
+55	Water Gun	Water	40	25	100	0		
+56	Hydro Pump	Water	120	5	80	0		
+57	Surf	Water	95	15	100	0		
+58	Ice Beam	Ice	95	10	100	0	Freeze	10
+59	Blizzard	Ice	120	5	90	0	Freeze	10
+60	Psybeam	Psychic	65	20	100	0	Confuse	10
+61	BubbleBeam	Water	65	20	100	0	-target speed	10
+62	Aurora Beam	Ice	65	20	100	0	-target attack	10
+63	Hyper Beam	Normal	150	5	90	0	Recharge	
+64	Peck	Flying	35	35	100	0		
+65	Drill Peck	Flying	80	20	100	0		
+66	Submission	Fighting	80	25	80	0	Recoil 25%	
+67	Low Kick	Fighting	50	20	90	0	Flinch	
+68	Counter	Fighting		20	100	-5	Counter physical	
+69	Seismic Toss	Fighting		20	100	0	Does level damage	
+70	Strength	Normal	80	15	100	0		
+71	Absorb	Grass	40	20	100	0	Drains half	
+72	Mega Drain	Grass	40	10	100	0	Drains half	
+73	Leech Seed	Grass		15	90	0	Leech seed	
+74	Growth	Normal		40		0	+special	
+75	Razor Leaf	Grass	55	25	95	0	Higher crit	
+76	SolarBeam	Grass	120	10	100	0	Charges up	
+77	Poison Powder	Poison		35	75	0	Poison	
+78	Stun Spore	Grass		30	75	0	Paralyze	
+79	Sleep Powder	Grass		15	75	0	Sleep	
+80	Petal Dance	Grass	120	20	100	0	Hits for 2-3 turns, user confused	
+81	String Shot	Bug		40	95	0	-target speed 2	
+82	Dragon Rage	Dragon		10	100	0	Deals 40 damage	
+83	Fire Spin	Fire	15	15	70	0	Traps	100
+84	ThunderShock	Electric	40	30	100	0	Paralyze	10
+85	Thunderbolt	Electric	95	15	100	0	Paralyze	10
+86	Thunder Wave	Electric		20	100	0	Paralyze	
+87	Thunder	Electric	120	10	70	0	Paralyze	30
+88	Rock Throw	Rock	50	15	65	0		
+89	Earthquake	Ground	100	10	100	0		
+90	Fissure	Ground		5	30	0	Ohko	
+91	Dig	Ground	100	10	100	0	Charges up, dodge	
+92	Toxic	Poison		10	85	0	Bad poison	
+93	Confusion	Psychic	50	25	100	0	Confuse	10
+94	Psychic	Psychic	90	10	100	0	-target special	10
+95	Hypnosis	Psychic		20	60	0	Sleep	
+96	Meditate	Psychic		40		0	+attack	
+97	Agility	Psychic		30		0	+speed 2	
+98	Quick Attack	Normal	40	30	100	1		
+99	Rage	Normal	20	20	100	0	Rage	
+100	Teleport	Psychic		20		0	Flees	
+101	Night Shade	Ghost		15	100	0	Does level damage	
+102	Mimic	Normal		10	100	0	Borrows last move	
+103	Screech	Normal		40	85	0	-target defense 2	
+104	Double Team	Normal		15		0	+evasion	
+105	Recover	Normal		20		0	Heal half	
+106	Harden	Normal		30		0	+defense	
+107	Minimize	Normal		20		0	+evasion	
+108	SmokeScreen	Normal		20	100	0	-target accuracy	
+109	Confuse Ray	Ghost		10	100	0	Confuse	
+110	Withdraw	Water		40		0	+defense	
+111	Defense Curl	Normal		40		0	+defense	
+112	Barrier	Psychic		30		0	+defense 2	
+113	Light Screen	Psychic		30		0	50% special shield 5 turns 	
+114	Haze	Ice		30		0	Resets all stats	
+115	Reflect	Psychic		20		0	50% physical shield 5 turns 	
+116	Focus Energy	Normal		30		0	Increases crit chance	
+117	Bide	Normal		10		1	Bide strikeback	
+118	Metronome	Normal		10		0	Uses a random move	
+119	Mirror Move	Flying		20		0	Copies last move	
+120	Selfdestruct	Normal	130	5	100	0	Selfdestruct	
+121	Egg Bomb	Normal	100	10	75	0		
+122	Lick	Ghost	20	30	100	0	Paralyze	30
+123	Smog	Poison	30	20	70	0	Poison	40
+124	Sludge	Poison	65	20	100	0	Poison	30
+125	Bone Club	Ground	65	20	85	0	Flinch	10
+126	Fire Blast	Fire	120	5	85	0	Burn	10
+127	Waterfall	Water	80	15	100	0	Flinch	20
+128	Clamp	Water	35	10	75	0	Traps	100
+129	Swift	Normal	60	20		0	Never misses	
+130	Skull Bash	Normal	100	15	100	0	Charges up	100
+131	Spike Cannon	Normal	20	15	100	0	Hits 2-5 times	
+132	Constrict	Normal	10	35	100	0	-target speed	10
+133	Amnesia	Psychic		20		0	+special 2	
+134	Kinesis	Psychic		15	80	0	-target accuracy	
+135	Softboiled	Normal		10		0	Heal half	
+136	Hi Jump Kick	Fighting	85	20	90	0	Miss inflicts self damage	
+137	Glare	Normal		30	75	0	Paralyze	
+138	Dream Eater	Psychic	100	15	100	0	Affects sleeping only, drains full	
+139	Poison Gas	Poison		40	55	0	Poison	
+140	Barrage	Normal	15	20	85	0	Hits 2-5 times	
+141	Leech Life	Bug	20	10	100	0	Drains half	
+142	Lovely Kiss	Normal		10	75	0	Sleep	
+143	Sky Attack	Flying	140	5	90	0		
+144	Transform	Normal		10		0	Ditto	
+145	Bubble	Water	20	30	100	0	-target speed	10
+146	Dizzy Punch	Normal	70	10	100	0		
+147	Spore	Grass		15	100	0	Sleep	
+148	Flash	Normal		20	70	0	-target accuracy	
+149	Psywave	Psychic		15	80	0	Does 1 to 1.5x level damage	
+150	Splash	Normal		40		0		
+151	Acid Armor	Poison		40		0	+defense 2	
+152	Crabhammer	Water	90	10	85	0	Higher crit	
+153	Explosion	Normal	170	5	100	0	Selfdestruct	
+154	Fury Swipes	Normal	18	15	80	0	Hits 2-5 times	
+155	Bonemerang	Ground	50	10	90	0	Hits twice	
+156	Rest	Psychic		10		0	Full heal, sleep 2 turns	
+157	Rock Slide	Rock	75	10	90	0		
+158	Hyper Fang	Normal	80	15	90	0	Flinch	10
+159	Sharpen	Normal		30		0	+attack	
+160	Conversion	Normal		30		0	Type changes	
+161	Tri-Attack	Normal	80	10	100	0		
+162	Super Fang	Normal		10	90	0	Deals 50% damage	
+163	Slash	Normal	70	20	100	0	Higher crit	
+164	Substitute	Normal		10		0	Substitute	
+165	Struggle	Normal	50	10	100	0	Struggle	
