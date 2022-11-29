@@ -10,14 +10,26 @@
 
 class pokemon {
 public:
-    pokemon(std::string name, int level, std::map<std::string,int> iv, std::map<std::string,int> ev, std::vector<std::string> moves);
+    pokemon(std::string name, int level, int hp, int attack, int defense, int special_attack, int special_defense, int speed, std::vector<std::string> moves);
     ~pokemon();
+
+    void calculation();
+
+    void experience();
+
+    void ev_caculation();
+
+    void move_exp();
 
 private:
     std::string name;
     int level;
-    std::map<std::string,int> iv;
-    std::map<std::string,int> ev;
+    int hp;
+    int attack;
+    int defense;
+    int special_attack;
+    int special_defense;
+    int speed;
     std::vector<std::string> moves;
 };
 

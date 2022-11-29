@@ -6,14 +6,32 @@
 #include <utility>
 #include <vector>
 #include "pokemon.h"
-pokemon::pokemon(std::string name, int level, std::map<std::string,int> iv, std::map<std::string,int> ev, std::vector<std::string> moves){
+
+pokemon::pokemon(std::string name, int level, int hp, int attack, int defense, int special_attack, int special_defense, int speed, std::vector<std::string> moves){
     pokemon::name = std::move(name);
     pokemon::level = level;
-    pokemon::iv = std::move(iv);
-    pokemon::ev = std::move(ev);
+    pokemon::hp = hp;
+    pokemon::attack = attack;
+    pokemon::defense = special_attack;
+    pokemon::special_defense = special_defense;
+    pokemon::special_attack = special_attack;
+    pokemon::speed = speed;
     pokemon::moves = std::move(moves);
 }
 
-pokemon::~pokemon(){
+pokemon::~pokemon() {
 
 }
+
+pokemon::calculation() {
+
+}
+
+pokemon::move_exp() {
+
+}
+
+void pokemon::ev_caculation() {
+
+}
+

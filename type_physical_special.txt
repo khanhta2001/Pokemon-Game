@@ -1,9 +1,0 @@
-Special	Physical
-Water	Normal
-Grass	Fighting
-Fire	Ground
-Ice	Flying
-Electric	Bug
-Dragon	Rock
-Psychic	Ghost
-	Poison
