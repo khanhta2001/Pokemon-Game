@@ -3,4 +3,4 @@ project(game)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(game main.cpp pokemon.cpp pokemon.h)
+add_executable(game main.cpp pokemon.cpp pokemon.h pokeconstant.cpp pokeconstant.h)
