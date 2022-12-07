@@ -16,6 +16,8 @@ public:
     int hp_caculation(int poke_hp, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev);
     int stats_caculation(const std::string& stat_name, int poke_stat, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev);
     int hp_stats();
+    void print();
+
 private:
     std::string name;
     int level;

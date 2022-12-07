@@ -6,6 +6,7 @@
 #include <utility>
 #include <vector>
 #include <cmath>
+#include <iostream>
 #include "pokemon.h"
 
 pokemon::pokemon(std::string name,int level, int hp, int attack, int defense, int special_attack, int special_defense, int speed, const std::map<std::string,int>& iv, const std::map<std::string,int>& ev, std::vector<std::string> moves){
@@ -36,6 +37,18 @@ int pokemon::hp_stats(){
     return pokemon::hp;
 }
 pokemon::~pokemon() {
+
+}
+
+void pokemon::print() {
+    std::cout << pokemon::name << std::endl;
+    std::cout << "level:" << pokemon::level << std::endl;
+    std::cout << "HP:" << pokemon::hp << std::endl;
+    std::cout << "attack:" << pokemon::attack << std::endl;
+    std::cout << "defense:" << pokemon::defense << std::endl;
+    std::cout << "special attack:" << pokemon::special_attack << std::endl;
+    std::cout << "special defense:" << pokemon::special_defense << std::endl;
+    std::cout << "speed:" << pokemon::speed << std::endl;
 
 }
 
