@@ -9,7 +9,7 @@
 #include <iostream>
 #include "pokemon.h"
 
-pokemon::pokemon(std::string name,int level, int hp, int attack, int defense, int special_attack, int special_defense, int speed, const std::map<std::string,int>& iv, const std::map<std::string,int>& ev, std::vector<std::string> moves){
+pokemon::pokemon(std::string name,int level, int hp, int attack, int defense, int special_attack, int special_defense, int speed, const std::map<std::string,int>& iv, const std::map<std::string,int>& ev, std::vector<std::string> moves, std::vector<std::string> types){
     pokemon::name = std::move(name);
     pokemon::level = level;
     pokemon::hp = pokemon::hp_caculation(hp, level, iv, ev);
@@ -19,6 +19,7 @@ pokemon::pokemon(std::string name,int level, int hp, int attack, int defense, in
     pokemon::special_defense = pokemon::stats_caculation("special_defense", special_defense, level, iv, ev);
     pokemon::speed = pokemon::stats_caculation("speed", speed, level, iv, ev);;
     pokemon::moves = std::move(moves);
+    pokemon::types = std::move(types);
 }
 int pokemon::hp_caculation(int poke_hp, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev) {
     int hp_iv = poke_iv["hp"];
