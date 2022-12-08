@@ -1,7 +1,3 @@
-//
-// Created by An Khanh Tran on 11/25/22.
-//
-
 #ifndef GAME_POKEMON_H
 #define GAME_POKEMON_H
 #include <string>

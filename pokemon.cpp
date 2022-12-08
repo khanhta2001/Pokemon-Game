@@ -1,7 +1,3 @@
-//
-// Created by An Khanh Tran on 11/25/22.
-//
-
 #include <map>
 #include <utility>
 #include <vector>
@@ -34,12 +30,8 @@ int pokemon::stats_caculation(const std::string& stat_name, int poke_stat, int p
     int new_stat = (((2 * poke_stat + stat_iv + (stat_ev /4)) * poke_level)/100) + 5;
     return new_stat;
 }
-int pokemon::hp_stats(){
-    return pokemon::hp;
-}
-pokemon::~pokemon() {
 
-}
+pokemon::~pokemon() = default;
 
 void pokemon::print() {
     std::cout << pokemon::name << std::endl;
