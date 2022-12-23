@@ -1,3 +1,6 @@
 # Pokemon-Game
-- This is a personal project that I did to practice C++ and to learn Unreal Engine
-- I plan to do this over the winter break and have everything ready by next semester
+
+# Introduction
+- This is a fan-made Pokémon Game (based on generation 1 and 2 of Pokémon)
+- There are simulated battle where you can see each pokémon battle with each other until either team runs out of pokémon to fight
+

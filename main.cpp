@@ -2,19 +2,6 @@
 #include "pokemon.h"
 #include "initialize_team.h"
 int main() {
-    std::map<std::string, int> iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> moves = {"ThunderShock", "Swift", "Thunderbolt", "Mega Punch"};
-    std::vector<std::string> types = {"Electric", ""};
-    pokemon pokemon1 = pokemon("Pikachu", 81, 35, 55, 30, 50, 40, 90, iv, ev, moves, types);
-    initialize_team team1 = initialize_team();
-    team1.team(&pokemon1);
-    team1.print();
-
-    return 1;
-}
-
-void all_pokemon(){
     std::map<std::string, int> pokemon1_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
     std::map<std::string, int> pokemon1_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
     std::vector<std::string> pokemon1_moves = {"ThunderShock", "Swift", "Thunderbolt", "Mega Punch"};
@@ -51,40 +38,26 @@ void all_pokemon(){
     std::vector<std::string> pokemon6_types = {"Fire", ""};
     pokemon pokemon6 = pokemon("Charmander", 81, 39,52,43,60,50,65, pokemon6_iv, pokemon6_ev, pokemon6_moves, pokemon6_types);
 
-    std::map<std::string, int> pokemon7_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon7_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon7_moves = {"Dragon Dance", "Bounce", "Waterfall","Earthquake","Taunt"};
-    std::vector<std::string> pokemon7_types = {"Grass", "Fighting"};
-    pokemon pokemon7 = pokemon("Gyarados", 81, 59,63,80,65,65,58, pokemon7_iv, pokemon7_ev, pokemon7_moves, pokemon7_types);
+    initialize_team team1 = initialize_team();
+    team1.team(&pokemon1);
+    team1.team(&pokemon2);
+    team1.team(&pokemon3);
+    team1.team(&pokemon4);
+    team1.team(&pokemon5);
+    team1.team(&pokemon6);
 
+    initialize_team team2 = initialize_team();
+    team2.team(&pokemon1);
+    team2.team(&pokemon2);
+    team2.team(&pokemon3);
+    team2.team(&pokemon4);
+    team2.team(&pokemon5);
+    team2.team(&pokemon6);
 
-    std::map<std::string, int> pokemon8_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon8_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon8_moves = {"Curse", "Frustration", "Body Slam", "Rest","Earthquake","Sleep Talk"};
-    std::vector<std::string> pokemon8_types = {"Normal", ""};
-    pokemon pokemon8 = pokemon("Snorlax", 81, 160,110,65,65,110,30, pokemon8_iv, pokemon8_ev, pokemon8_moves, pokemon8_types);
+    team1.print();
 
-    std::map<std::string, int> pokemon9_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon9_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon9_moves = {"Hurricane", "Fire Blast", "Roost"};
-    std::vector<std::string> pokemon9_types = {"Fire", "Flying"};
-    pokemon pokemon9 = pokemon("Moltres", 81, 90, 100,90,125,85,90, pokemon9_iv, pokemon9_ev, pokemon9_moves, pokemon9_types);
+    return 1;
+}
 
-    std::map<std::string, int> pokemon10_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon10_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon10_moves = {"Pound", "Mega Punch", "Psychic"};
-    std::vector<std::string> pokemon10_types = {"Electric", ""};
-    pokemon pokemon10 = pokemon("Quagsire", 81, 95, 85,85,65,65,35, pokemon10_iv, pokemon10_ev, pokemon10_moves, pokemon10_types);
-
-    std::map<std::string, int> pokemon11_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon11_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon11_moves = {"Pound", "Mega Punch", "Psychic"};
-    std::vector<std::string> pokemon11_types = {"Electric", ""};
-    pokemon pokemon11 = pokemon("Lunatone", 81, 70,55,65,95,85,70, pokemon11_iv, pokemon11_ev, pokemon11_moves, pokemon11_types);
-
-    std::map<std::string, int> pokemon12_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
-    std::map<std::string, int> pokemon12_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
-    std::vector<std::string> pokemon12_moves = {"Pound", "Mega Punch", "Psychic"};
-    std::vector<std::string> pokemon12_types = {"Electric", ""};
-    pokemon pokemon12 = pokemon("Gabite", 81, 68,90,65,50,55,82, pokemon12_iv, pokemon12_ev, pokemon12_moves, pokemon12_types);
+void all_pokemon(){
 }
