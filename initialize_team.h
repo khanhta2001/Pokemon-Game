@@ -9,8 +9,11 @@ public:
     ~initialize_team();
     void team(pokemon* pokemon);
     void print();
+    bool empty();
+    void report_dead(pokemon* pokemon);
+    pokemon poke(std::string name);
 private:
-    std::vector<pokemon*> poke_team;
+    std::map<pokemon*,std::string> poke_team;
 };
 
 

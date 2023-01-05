@@ -33,15 +33,18 @@ int pokemon::stats_caculation(const std::string& stat_name, int poke_stat, int p
 
 pokemon::~pokemon() = default;
 
-void pokemon::print() {
+void pokemon::print_name () {
     std::cout << pokemon::name << std::endl;
-    std::cout << "level:" << pokemon::level << std::endl;
-    std::cout << "HP:" << pokemon::hp << std::endl;
-    std::cout << "attack:" << pokemon::attack << std::endl;
-    std::cout << "defense:" << pokemon::defense << std::endl;
-    std::cout << "special attack:" << pokemon::special_attack << std::endl;
-    std::cout << "special defense:" << pokemon::special_defense << std::endl;
-    std::cout << "speed:" << pokemon::speed << std::endl;
-
 }
+
+std::string pokemon::get_name() {
+    return pokemon::name;
+}
+
+std::map<std::string,int> pokemon::get_stats() {
+    std::map<std::string,int> stats = {{"Level",pokemon::level},{"HP",pokemon::hp},{"Attack",pokemon::attack},{"Defense",pokemon::defense},{"Special Attack",pokemon::special_attack},{"Special Defense",pokemon::special_defense},{"Speed",pokemon::speed}};
+    return stats;
+}
+
+
 

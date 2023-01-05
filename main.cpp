@@ -58,6 +58,3 @@ int main() {
 
     return 1;
 }
-
-void all_pokemon(){
-}
