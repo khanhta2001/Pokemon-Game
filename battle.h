@@ -10,12 +10,14 @@
 #include "initialize_team.h"
 
 class battle {
+
 public:
     battle();
     ~battle();
-    std::string pick_poke(initialize_team team);
     void simulate_battle(initialize_team team1, initialize_team team2);
+
 private:
+    std::string pick_poke(initialize_team team);
     initialize_team team1;
     initialize_team team2;
 

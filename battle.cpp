@@ -5,13 +5,9 @@
 #include <iostream>
 #include "battle.h"
 
-battle::battle() {
+battle::battle() = default;
 
-}
-
-battle::~battle() {
-
-}
+battle::~battle() = default;
 
 std::string battle::pick_poke(initialize_team team) {
     if (!team.empty()){

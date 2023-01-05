@@ -1,6 +1,8 @@
 #include <iostream>
 #include "pokemon.h"
 #include "initialize_team.h"
+#include "battle.h"
+
 int main() {
     std::map<std::string, int> pokemon1_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
     std::map<std::string, int> pokemon1_ev = {{"attack",0}, {"defense", 0}, {"speed", 0}, {"special_attack", 0}, {"special_defense",0}, {"hp",0}};
@@ -55,6 +57,9 @@ int main() {
     team2.team(&pokemon6);
 
     team1.print();
+
+    battle battle1 = battle();
+    battle1.simulate_battle(team1, team2);
 
     return 1;
 }

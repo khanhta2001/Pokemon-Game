@@ -6,8 +6,7 @@ initialize_team::initialize_team() {
     initialize_team::poke_team = {};
 }
 
-initialize_team::~initialize_team(){
-}
+initialize_team::~initialize_team()= default;
 
 void initialize_team::team(pokemon* pokemon) {
     initialize_team::poke_team.insert({pokemon,"Alive"});
@@ -30,7 +29,7 @@ void initialize_team::print(){
     std::cout << std::endl;
 }
 
-pokemon initialize_team::poke(std::string name){
+pokemon initialize_team::poke(const std::string& name){
     for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
         std::string name_poke = i->first->get_name();
         if (name_poke == name){
@@ -38,5 +37,15 @@ pokemon initialize_team::poke(std::string name){
         }
     }
 
+}
+
+int initialize_team::total_dead() {
+    int total = 0;
+    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
+        if (i->second == "Dead"){
+            total += 1;
+        }
+    }
+    return total;
 }
 
