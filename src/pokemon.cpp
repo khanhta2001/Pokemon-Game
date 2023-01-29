@@ -16,6 +16,7 @@ pokemon::pokemon(std::string name,int level, int hp, int attack, int defense, in
     pokemon::speed = pokemon::statsCaculation("speed", speed, level, iv, ev);;
     pokemon::moves = std::move(moves);
     pokemon::types = std::move(types);
+    pokemon::status = "None";
 }
 int pokemon::hpCaculation(int poke_hp, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev) {
     int hp_iv = poke_iv["hp"];
@@ -29,6 +30,14 @@ int pokemon::statsCaculation(const std::string& stat_name, int poke_stat, int po
     int stat_ev = poke_ev[stat_name];
     int new_stat = (((2 * poke_stat + stat_iv + (stat_ev /4)) * poke_level)/100) + 5;
     return new_stat;
+}
+
+std::string pokemon::poke_status(){
+    return pokemon::status;
+}
+
+void pokemon::change_status(std::string status){
+    pokemon::status = std::move(status);
 }
 
 pokemon::~pokemon() = default;

@@ -36,7 +36,6 @@ pokemon initialize_team::poke(const std::string& name){
             return *i->first;
         }
     }
-
 }
 
 int initialize_team::total_dead() {
@@ -47,5 +46,15 @@ int initialize_team::total_dead() {
         }
     }
     return total;
+}
+
+int initialize_team::check_poke(const std::string& name) {
+    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
+        std::string name_poke = i->first->get_name();
+        if (name_poke == name){
+            return true;
+        }
+    }
+    return false;
 }
 

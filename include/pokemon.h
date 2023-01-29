@@ -15,6 +15,8 @@ public:
     void print_name();
     std::string get_name();
     std::map<std::string,int> get_stats();
+    std::string poke_status();
+    void change_status(std::string status);
 
 private:
     std::string name;
@@ -25,6 +27,7 @@ private:
     int special_attack;
     int special_defense;
     int speed;
+    std::string status;
     std::vector<std::string> moves;
     std::vector<std::string> types;
 };

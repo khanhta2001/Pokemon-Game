@@ -14,6 +14,7 @@ public:
     void report_dead(pokemon* pokemon);
     pokemon poke(const std::string& name);
     int total_dead();
+    int check_poke(const std::string& name);
 
 private:
     std::map<pokemon*,std::string> poke_team;

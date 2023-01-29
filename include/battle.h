@@ -20,7 +20,10 @@ private:
     std::string pick_poke(initialize_team team);
     initialize_team team1;
     initialize_team team2;
-
+    static int eval_crit(int base_speed);
+    int calc_damage(int level, int power, int attack, int defense, double stab_bonus, double type_bonus, std::string move_effect);
+    std::vector<std::string> process_attack(pokemon pokemon1, pokemon pokemon2);
+    double get_type_effectiveness(pokemon pokeMove, std::vector<std::string> defense_type);
 };
 
 
