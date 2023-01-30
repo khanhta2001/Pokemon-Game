@@ -14,7 +14,7 @@ PokeMove::PokeMove(std::string name, std::string poketype, int power, int pp, in
     PokeMove::accuracy = accuracy;
     PokeMove::priority = std::move(priority);
     PokeMove::effect = std::move(effect);
-    PokeMove::effect_chance = effect_chance
+    PokeMove::effect_chance = effect_chance;
 }
 
 PokeMove::~PokeMove() {

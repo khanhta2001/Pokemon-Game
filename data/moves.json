@@ -1,0 +1,1112 @@
+{
+  "Pound" : {
+    "Name" : "Pound",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 35,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "None",
+    "Effect Chance" : "None"
+  },
+  "Karate Chop" : {
+    "Name" : "Karate Chop",
+    "Type" : "Normal",
+    "Power" : 50,
+    "PP" : 25,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Higher Crit",
+    "Effect Chance" : "None"
+  },
+  "Double Slap" : {
+    "Name" : "Double Slap",
+    "Type" : "Normal",
+    "Power" : 15,
+    "PP" : 10,
+    "Accuracy" : 85,
+    "Priority" : 0,
+    "Effect" : "Hits",
+    "Effect Chance" : "2-5 times"
+  },
+  "Comet Punch" : {
+    "Name" : "Comet Punch",
+    "Type" : "Normal",
+    "Power" : 18,
+    "PP" : 15,
+    "Accuracy" : 85,
+    "Priority" : 0,
+    "Effect" : "Hits",
+    "Effect Chance" : "2-5 times"
+  },
+  "Mega Punch" : {
+    "Name" : "Mega Punch",
+    "Type" : "Normal",
+    "Power" : 80,
+    "PP" : 20,
+    "Accuracy" : 85,
+    "Priority" : 0,
+    "Effect" : "None",
+    "Effect Chance" : "None"
+  },
+  "Pay Day" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Fire Punch" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Ice Punch" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "ThunderPunch" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Scratch" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Vice Grip" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Guillotine" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Razor Wind" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Swords Dance" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Cut" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Gust" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Wing Attack" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Whirlwind" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Fly" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Bind" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Slam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Vine Whip" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Stomp" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Double Kick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Mega Kick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Jump Kick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Rolling Kick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Sand Attack" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Headbutt" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Horn Attack" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Fury Attack" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Horn Drill" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Tackle" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Body Slam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Wrap" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Take Down" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Thrash" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Double-Edge" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Tail Whip" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Poison Sting" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Twineedle" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Pin Missile" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Leer" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Bite" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Growl" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Roar" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Sing" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Supersonic" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Sonic Boom" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Disable" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Acid" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Ember" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Flamethrower" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Mist" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Water Gun" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Hydro Pump" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Surf" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Ice Beam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Blizzard" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Psybeam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Bubble Beam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Aurora Beam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Hyper Beam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Peck" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Drill Peck" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Submission" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Low Kick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Counter" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Seismic Toss" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Strength" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Absorb" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Mega Drain" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Leech Seed" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Growth" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Razor Leaf" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Solar Beam" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Poison Powder" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Stun Spore" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Sleep Powder" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Petal Dance" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "String Shot" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Dragon Rage" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Fire Spin" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Thunder Shock" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Thunderbolt" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Thunder Wave" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Thunder" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Rock" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Earthquake" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Fissure" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Dig" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Toxic" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Confusion" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Psychic" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Hypnosis" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Meditate" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Agility" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Quick" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Rage" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Teleport" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Night Shade" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Mimic" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Screech" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Double Team" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Recover" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Harden" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Minimize" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Smoke Screen" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Confuse Ray" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Withdraw" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  },
+  "Defense Curl" : {
+    "Name" : "Pay Day",
+    "Type" : "Normal",
+    "Power" : 40,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Priority" : 0,
+    "Effect" : "Extra money",
+    "Effect Chance" : "None"
+  }
+}
