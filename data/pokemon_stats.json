@@ -76,5 +76,2657 @@
     "Speed" : 65,
     "Type 1" : "Fire",
     "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
+  },
+  "Pikachu" :
+  {
+    "Name" : "Pikachu",
+    "Level" : 81,
+    "HP" : 35,
+    "Attack" : 55,
+    "Defense" : 30,
+    "Special Attack" : 50,
+    "Special Defense" : 40,
+    "Speed" : 90,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "Mew" :
+  {
+    "Name" : "Mew",
+    "Level" : 81,
+    "HP" : 100,
+    "Attack" : 100,
+    "Defense" : 100,
+    "Special Attack" : 100,
+    "Special Defense" : 100,
+    "Speed" : 100,
+    "Type 1" : "Electric",
+    "Type 2" : ""
+  },
+  "MewTwo" :
+  {
+    "Name" : "MewTwo",
+    "Level" : 81,
+    "HP" : 106,
+    "Attack" : 110,
+    "Defense" : 90,
+    "Special Attack" : 154,
+    "Special Defense" : 90,
+    "Speed" : 130,
+    "Type 1" : "Psychic",
+    "Type 2" : ""
+  },
+  "Blastoise" :
+  {
+    "Name" : "Blastoise",
+    "Level" : 81,
+    "HP" : 79,
+    "Attack" : 83,
+    "Defense" : 100,
+    "Special Attack" : 85,
+    "Special Defense" : 105,
+    "Speed" : 78,
+    "Type 1" : "Water",
+    "Type 2" : ""
+  },
+  "Bulbasaur" :
+  {
+    "Name" : "Bulbasaur",
+    "Level" : 81,
+    "HP" : 45,
+    "Attack" : 49,
+    "Defense" : 49,
+    "Special Attack" : 65,
+    "Special Defense" : 65,
+    "Speed" : 45,
+    "Type 1" : "Grass",
+    "Type 2" : "Poison"
+  },
+  "Charmander" :
+  {
+    "Name" : "Charmander",
+    "Level" : 81,
+    "HP" : 39,
+    "Attack" : 52,
+    "Defense" : 43,
+    "Special Attack" : 60,
+    "Special Defense" : 50,
+    "Speed" : 65,
+    "Type 1" : "Fire",
+    "Type 2" : ""
   }
 }
