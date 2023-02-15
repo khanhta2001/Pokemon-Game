@@ -1,11 +1,9 @@
-//
-// Created by ankha on 1/18/2023.
-//
 
 #ifndef GAME_MOVE_H
 #define GAME_MOVE_H
-
-#endif //GAME_MOVE_H
+#include <string>
+#include <map>
+#include <vector>
 
 class PokeMove{
 public:
@@ -27,3 +25,6 @@ private:
     int effect_chance;
 
 };
+
+
+#endif //GAME_MOVE_H

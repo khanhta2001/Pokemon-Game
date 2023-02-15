@@ -1576,340 +1576,404 @@
     "Accuracy" : 85,
     "Effect" : "User receives recoil damage"
   },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
+  "Teleport" : {
+    "Name" : "Teleport",
+    "Type" : "Psychic",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : "-",
+    "Effect" : "Allows user to flee wild battles; also warps player to last PokéCenter"
   },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
+  "Thrash" : {
+    "Name" : "Thrash",
+    "Type" : "Normal",
+    "Power" : 120,
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "User attacks for 2-3 turns but then becomes confused"
+  },
+  "Thunder" : {
+    "Name" : "Thunder",
+    "Type" : "Electric",
+    "Power" : 110,
+    "PP" : 10,
+    "Accuracy" : 70,
+    "Effect" : "May paralyze opponent"
+  },
+  "Thunder Punch" : {
+    "Name" : "Thunder Punch",
+    "Type" : "Electric",
+    "Power" : 75,
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "May paralyze opponent"
+  },
+  "Thunder Shock" : {
+    "Name" : "Absorb",
+    "Type" : "Electric",
     "Power" : 40,
     "PP" : 30,
     "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
+    "Effect" : "May paralyze opponent"
   },
-  "Absorb" : {
-    "Name" : "Absorb",
+  "Thunder Wave" : {
+    "Name" : "Thunder Wave",
+    "Type" : "Electric",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : 90,
+    "Effect" : "paralyzes opponent"
+  },
+  "Thunderbolt" : {
+    "Name" : "Thunderbolt",
+    "Type" : "Electric",
+    "Power" : 90,
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "May paralyze opponent"
+  },
+  "Toxic" : {
+    "Name" : "Toxic",
+    "Type" : "Poison",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : 90,
+    "Effect" : "Badly poisons opponent"
+  },
+  "Transform" : {
+    "Name" : "Transform",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : "-",
+    "Effect" : "User takes on the form and attacks of the opponent"
+  },
+  "Tri Attack" : {
+    "Name" : "Tri Attack",
+    "Type" : "Normal",
+    "Power" : 80,
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "May paralyze, burn or freeze opponent"
+  },
+  "Twineedle" : {
+    "Name" : "Twineedle",
+    "Type" : "Bug",
+    "Power" : 25,
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "Hits twice in one turn. May poison opponent"
+  },
+  "Vine Whip" : {
+    "Name" : "Vine Whip",
     "Type" : "Grass",
-    "Power" : 20,
+    "Power" : 45,
     "PP" : 25,
     "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
+    "Effect" : ""
   },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
+  "Vise Grip" : {
+    "Name" : "Vise Grip",
+    "Type" : "Grass",
+    "Power" : 55,
     "PP" : 30,
     "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
+    "Effect" : ""
   },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
+  "Water Gun" : {
+    "Name" : "Water Gun",
+    "Type" : "Water",
+    "Power" : 40,
     "PP" : 25,
     "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
+    "Effect" : ""
   },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
+  "Waterfall" : {
+    "Name" : "Waterfall",
+    "Type" : "Water",
+    "Power" : 80,
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "May cause flinching"
+  },
+  "Whirlwind" : {
+    "Name" : "Whirlwind",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : "-",
+    "Effect" : "In battles, the opponent switches. In the wild, the Pokémon runs"
+  },
+  "Wing Attack" : {
+    "Name" : "Wing Attack",
+    "Type" : "Flying",
+    "Power" : 60,
+    "PP" : 35,
+    "Accuracy" : 100,
+    "Effect" : ""
+  },
+  "Withdraw" : {
+    "Name" : "Withdraw",
+    "Type" : "Water",
+    "Power" : "-",
+    "PP" : 40,
+    "Accuracy" : "-",
+    "Effect" : "Raises user's Defense"
+  },
+  "Wrap" : {
+    "Name" : "Wrap",
+    "Type" : "Normal",
+    "Power" : 15,
+    "PP" : 20,
+    "Accuracy" : 90,
+    "Effect" : "Traps opponent, damaging them for 4-5 turns"
+  },
+  "Rain Dance" : {
+    "Name" : "Rain Dance",
+    "Type" : "Water",
+    "Power" : "-",
+    "PP" : 5,
+    "Accuracy" : "-",
+    "Effect" : "Makes it rain for 5 turns"
+  },
+  "Rapid Spin" : {
+    "Name" : "Rapid Spin",
+    "Type" : "Normal",
+    "Power" : 50,
+    "PP" : 40,
+    "Accuracy" : 100,
+    "Effect" : "Raises user's Speed and removes entry hazards and trap move effects"
+  },
+  "Return" : {
+    "Name" : "Return",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Effect" : "Power increases with higher Friendship"
+  },
+  "Reversal" : {
+    "Name" : "Reversal",
+    "Type" : "Fighting",
+    "Power" : "-",
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "The lower the user's HP, the higher the power"
+  },
+  "Rock Smash" : {
+    "Name" : "Rock Smash",
+    "Type" : "Fighting",
     "Power" : 40,
-    "PP" : 30,
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "May lower opponent's Defense"
+  },
+  "Rollout" : {
+    "Name" : "Rollout",
+    "Type" : "Rock",
+    "Power" : 30,
+    "PP" : 20,
+    "Accuracy" : 90,
+    "Effect" : "Doubles in power each turn for 5 turns"
+  },
+  "Sacred Fire" : {
+    "Name" : "Sacred Fire",
+    "Type" : "Fire",
+    "Power" : 100,
+    "PP" : 5,
+    "Accuracy" : 95,
+    "Effect" : "May burn opponent"
+  },
+  "Safeguard" : {
+    "Name" : "Safeguard",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 25,
+    "Accuracy" : "-",
+    "Effect" : "The user's party is protected from status conditions"
+  },
+  "Sandstorm" : {
+    "Name" : "Sandstorm",
+    "Type" : "Rock",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : "-",
+    "Effect" : "Creates a sandstorm for 5 turns"
+  },
+  "Scary Face" : {
+    "Name" : "Scary Face",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "Sharply lowers opponent's Speed"
+  },
+  "Shadow Ball" : {
+    "Name" : "Shadow Ball",
+    "Type" : "Ghost",
+    "Power" : 80,
+    "PP" : 15,
     "Accuracy" : 100,
     "Effect" : "May lower opponent's Special Defense"
   },
-  "Absorb" : {
-    "Name" : "Absorb",
+  "Sketch" : {
+    "Name" : "Sketch",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 1,
+    "Accuracy" : "-",
+    "Effect" : "Permanently copies the opponent's last move"
+  },
+  "Sleep Talk" : {
+    "Name" : "Sleep Talk",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : "-",
+    "Effect" : "User performs one of its own moves while sleeping"
+  },
+  "Sludge Bomb" : {
+    "Name" : "Sludge Bomb",
+    "Type" : "Normal",
+    "Power" : 90,
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "May poison opponent"
+  },
+  "Snore" : {
+    "Name" : "Snore",
+    "Type" : "Normal",
+    "Power" : 50,
+    "PP" : 15,
+    "Accuracy" : 100,
+    "Effect" : "Can only be used if asleep. May cause flinching"
+  },
+  "Spark" : {
+    "Name" : "Spark",
+    "Type" : "Electric",
+    "Power" : 65,
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Effect" : "May paralyze opponent"
+  },
+  "Spider Web" : {
+    "Name" : "Spider Web",
+    "Type" : "Bug",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : "-",
+    "Effect" : "Opponent cannot escape/switch"
+  },
+  "Spikes" : {
+    "Name" : "Spikes",
+    "Type" : "Ground",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : "-",
+    "Effect" : "Hurts opponents when they switch into battle"
+  },
+  "Spite" : {
+    "Name" : "Spite",
+    "Type" : "Ghost",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : 100,
+    "Effect" : "The opponent's last move loses 2-5 PP"
+  },
+  "Steel Wing" : {
+    "Name" : "Steel Wing",
+    "Type" : "Steel",
+    "Power" : 70,
+    "PP" : 90,
+    "Accuracy" : 25,
+    "Effect" : "May raise user's Defense"
+  },
+  "Sunny Day" : {
+    "Name" : "Sunny Day",
+    "Type" : "Fire",
+    "Power" : "-",
+    "PP" : 5,
+    "Accuracy" : "-",
+    "Effect" : "Makes it sunny for 5 turns"
+  },
+  "Swagger" : {
+    "Name" : "Swagger",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 15,
+    "Accuracy" : 85,
+    "Effect" : "Confuses opponent, but sharply raises its Attack"
+  },
+  "Sweet Kiss" : {
+    "Name" : "Sweet Kiss",
+    "Type" : "Fairy",
+    "Power" : "-",
+    "PP" : 10,
+    "Accuracy" : 75,
+    "Effect" : "Confuses opponent"
+  },
+  "Sweet Scent" : {
+    "Name" : "Sweet Scent",
+    "Type" : "Normal",
+    "Power" : "-",
+    "PP" : 20,
+    "Accuracy" : 100,
+    "Effect" : "Lowers opponent's Evasiveness"
+  },
+  "Synthesis" : {
+    "Name" : "Synthesis",
     "Type" : "Grass",
-    "Power" : 20,
+    "Power" : "-",
+    "PP" : 5,
+    "Accuracy" : "-",
+    "Effect" : "User recovers HP. Amount varies with the weather"
+  },
+  "Thief" : {
+    "Name" : "Thief",
+    "Type" : "Dark",
+    "Power" : 60,
     "PP" : 25,
     "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
+    "Effect" : "Also steals opponent's held item"
   },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
+  "Triple Kick" : {
+    "Name" : "Triple Kick",
+    "Type" : "Fighting",
+    "Power" : 10,
+    "PP" : 10,
+    "Accuracy" : 90,
+    "Effect" : "Hits thrice in one turn at increasing power."
+  },
+  "Twister" : {
+    "Name" : "Twister",
+    "Type" : "Dragon",
     "Power" : 40,
-    "PP" : 30,
+    "PP" : 20,
     "Accuracy" : 100,
+    "Effect" : "May cause flinching. Hits Pokémon using Fly/Bounce with double power"
+  },
+  "Vital Throw" : {
+    "Name" : "Vital Throw",
+    "Type" : "Fighting",
+    "Power" : 70,
+    "PP" : 10,
+    "Accuracy" : "~",
     "Effect" : "May lower opponent's Special Defense"
   },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
+  "Whirlpool" : {
+    "Name" : "Whirlpool",
+    "Type" : "Water",
+    "Power" : 35,
+    "PP" : 15,
+    "Accuracy" : 85,
+    "Effect" : "Traps opponent, damaging them for 4-5 turns"
   },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
-  },
-  "Absorb" : {
-    "Name" : "Absorb",
-    "Type" : "Grass",
-    "Power" : 20,
-    "PP" : 25,
-    "Accuracy" : 100,
-    "Effect" : "User recovers half the HP inflicted on opponent"
-  },
-  "Acid" : {
-    "Name" : "Acid",
-    "Type" : "Poison",
-    "Power" : 40,
-    "PP" : 30,
-    "Accuracy" : 100,
-    "Effect" : "May lower opponent's Special Defense"
+  "Zap Cannon" : {
+    "Name" : "Zap Cannon",
+    "Type" : "Electric",
+    "Power" : 120,
+    "PP" : 5,
+    "Accuracy" : 50,
+    "Effect" : "Paralyzes opponent"
   }
 }

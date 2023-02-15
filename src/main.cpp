@@ -2,9 +2,6 @@
 #include "pokemon.h"
 #include "initialize_team.h"
 #include "battle.h"
-#include "rapidjson/document.h"
-#include "rapidjson/writer.h"
-#include "rapidjson/stringbuffer.h"
 
 int main() {
     std::map<std::string, int> pokemon1_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
@@ -64,5 +61,4 @@ int main() {
     battle battle1 = battle();
     //battle1.simulate_battle(team1, team2);
 
-    return 1;
 }

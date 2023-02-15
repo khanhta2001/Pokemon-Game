@@ -48,7 +48,6 @@ std::vector<std::string> battle::process_attack(pokemon attacker, pokemon defend
 double battle::get_type_effectiveness(pokemon pokeMove, std::vector<std::string> defense_type) {
     double result = 1;
     std::map<std::string, std::map<std::string, double>> type = {};
-    //type.insert("Normal", {{"Normal", 1}, {"Fire", 1}, {"Water", 1}, {"Eletric", 1}, {"Grass", 1}, {"Ice", 1}, {"Fighting", 1}, {"Poison", 1}, {"Ground", 1}, {"Fly", 1}, {"Psychic", 1}, {"Bug", 1}, {"Rock", 0.5}, {"Ghost", 1}, {"Dragon", 1}, {"Dark", 1}, {"Steel", 0.5}});
     std::map<std::string,double> data = {};
     for (int i = 0; i < defense_type.size(); i++){
         result = result * data[defense_type[i]];

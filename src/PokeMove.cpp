@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include "pokemon.h"
-#include "move.h"
+#include "PokeMove.h"
 
 PokeMove::PokeMove(std::string name, std::string poketype, int power, int pp, int accuracy, std::string priority, int effect, int effect_chance) {
     PokeMove::name = std::move(name);
