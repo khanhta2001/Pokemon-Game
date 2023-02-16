@@ -2,6 +2,7 @@
 #include "pokemon.h"
 #include "initialize_team.h"
 #include "battle.h"
+#include "io_functions.h"
 
 int main() {
     std::map<std::string, int> pokemon1_iv = {{"attack",8}, {"defense", 13}, {"speed", 90}, {"special_attack", 9}, {"special_defense",9}, {"hp",7}};
@@ -40,25 +41,36 @@ int main() {
     std::vector<std::string> pokemon6_types = {"Fire", ""};
     pokemon pokemon6 = pokemon("Charmander", 81, 39,52,43,60,50,65, pokemon6_iv, pokemon6_ev, pokemon6_moves, pokemon6_types);
 
-    initialize_team team1 = initialize_team();
-    team1.team(&pokemon1);
-    team1.team(&pokemon2);
-    team1.team(&pokemon3);
-    team1.team(&pokemon4);
-    team1.team(&pokemon5);
-    team1.team(&pokemon6);
-
-    initialize_team team2 = initialize_team();
-    team2.team(&pokemon1);
-    team2.team(&pokemon2);
-    team2.team(&pokemon3);
-    team2.team(&pokemon4);
-    team2.team(&pokemon5);
-    team2.team(&pokemon6);
-
-    team1.print();
-
-    battle battle1 = battle();
+//    initialize_team team1 = initialize_team();
+//    team1.team(&pokemon1);
+//    team1.team(&pokemon2);
+//    team1.team(&pokemon3);
+//    team1.team(&pokemon4);
+//    team1.team(&pokemon5);
+//    team1.team(&pokemon6);
+//
+//    initialize_team team2 = initialize_team();
+//    team2.team(&pokemon1);
+//    team2.team(&pokemon2);
+//    team2.team(&pokemon3);
+//    team2.team(&pokemon4);
+//    team2.team(&pokemon5);
+//    team2.team(&pokemon6);
+//
+//    team1.print();
+//
+//    battle battle1 = battle();
     //battle1.simulate_battle(team1, team2);
+
+    io_functions f1 = io_functions();
+    auto test1 = f1.MovesData();
+    if (test1.empty()){
+        std::cout << "Bruh" << std::endl;
+    }
+    else{
+        for (auto it = test1.begin(); it != test1.end(); ++it) {
+            std::cout << it->first << ": " << std::endl;
+        }
+    }
 
 }
