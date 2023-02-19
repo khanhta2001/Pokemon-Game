@@ -60,17 +60,15 @@ int main() {
 //    team1.print();
 //
 //    battle battle1 = battle();
-    //battle1.simulate_battle(team1, team2);
+//    battle1.simulate_battle(team1, team2);
 
-//    io_functions f1 = io_functions();
-//    auto test1 = f1.stats_info();
-//    if (test1.empty()){
-//        std::cout << "Bruh" << std::endl;
-//    }
-//    else{
-//        for (auto it = test1.begin(); it != test1.end(); ++it) {
-//            std::cout << it->first << ": " << std::endl;
-//        }
-//    }
+    io_functions f1 = io_functions();
+    auto test1 = f1.moves_info();
+    if (test1.empty()){
+        std::cout << "Bruh" << std::endl;
+    }
+    else{
+
+    }
 
 }

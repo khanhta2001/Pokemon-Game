@@ -71,9 +71,11 @@ std::map<std::string, std::map<std::string, std::string>> io_functions::moves_in
     for (rapidjson::Value::ConstMemberIterator itr = sd.MemberBegin(); itr != sd.MemberEnd(); ++itr) {
         const rapidjson::Value& val = itr->value;
         std::map<std::string,std::string> map2;
-        for (rapidjson::Value::ConstMemberIterator ptr = val.MemberBegin(); ptr != val.MemberEnd(); ++ptr) {
-                map2[ptr->name.GetString()] = ptr->value.GetString();
-        }
+        rapidjson::Value::ConstMemberIterator ptr = val.MemberBegin();
+        auto test1 = ptr->name.GetString();
+        //std::cout << test1 << std::endl;
+        auto test2 = ptr->value.GetArray();
+
         HashMap[itr->name.GetString()] = map2;
     }
 

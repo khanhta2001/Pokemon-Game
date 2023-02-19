@@ -257,7 +257,7 @@
     "Effect" : "High critical hit ratio"
   },
   "Cut" : {
-    "Name" : "Absorb",
+    "Name" : "Cut",
     "Type" : "Grass",
     "Power" : 50,
     "PP" : 30,
@@ -689,7 +689,7 @@
     "Effect" : "If it misses, the user loses half their HP"
   },
   "Horn Attack" : {
-    "Name" : "Acid",
+    "Name" : "Horn Attack",
     "Type" : "Poison",
     "Power" : 40,
     "PP" : 30,
@@ -1441,7 +1441,7 @@
     "Effect" : "Hits 2-5 times in one turn"
   },
   "Splash" : {
-    "Name" : "Acid",
+    "Name" : "Splash",
     "Type" : "Poison",
     "Power" : "-",
     "PP" : 40,
@@ -1609,7 +1609,7 @@
     "Effect" : "May paralyze opponent"
   },
   "Thunder Shock" : {
-    "Name" : "Absorb",
+    "Name" : "Thunder Shock",
     "Type" : "Electric",
     "Power" : 40,
     "PP" : 30,
