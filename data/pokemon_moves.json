@@ -277,295 +277,295 @@
   },
   "Geodude" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Graveler" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Defense Curl", "Rock Throw"]
   },
   "Golem" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Defense Curl", "Rock Throw", "Magnitude"]
   },
   "Ponyta" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Rapidash" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Growl", "Tail Whip", "Ember"]
   },
   "Slowpoke" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Curse", "Tackle"]
   },
   "Slowbro" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Curse", "Tackle", "Growl", "Water Gun"]
   },
   "Magnemite" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Magneton" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"]
   },
   "Farfetch'd" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck"]
   },
   "Doduo" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck", "Growl"]
   },
   "Dodrio" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck", "Growl", "Pursuit", "Fury Attack"]
   },
   "Seel" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Headbutt"]
   },
   "Dewgong" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Headbutt", "Growl", "Aurora Beam"]
   },
   "Grimer" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Poison Gas", "Pound"]
   },
   "Muk" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Poison Gas", "Pound", "Harden"]
   },
   "Shellder" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Withdraw"]
   },
   "Cloyster" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Withdraw", "Supersonic", "Aurora Beam", "Protect"]
   },
   "Gastly" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Hypnosis", "Lick"]
   },
   "Haunter" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Hypnosis", "Lick", "Spite"]
   },
   "Gengar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Hypnosis", "Lick", "Spite"]
   },
   "Onix" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Screech"]
   },
   "Drowzee" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound", "Hypnosis"]
   },
   "Hypno" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound", "Hypnosis", "Disable", "Confusion"]
   },
   "Krabby" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Bubble"]
   },
   "Kingler" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Bubble", "Leer", "Vine Grip"]
   },
   "Voltorb" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Electrode" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Screech", "Sonic Boom", "Self-Destruct"]
   },
   "Exeggcute" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Barrage", "Hypnosis"]
   },
   "Exeggutor" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Barrage", "Hypnosis", "Confusion"]
   },
   "Cubone" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Growl"]
   },
   "Marowak" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Growl", "Tail Whip", "Bone Club", "Headbutt"]
   },
   "Hitmonlee" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Double Kick", "Meditate"]
   },
   "Hitmonchan" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Comet Punch"]
   },
   "Lickitung" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Lick"]
   },
   "Koffing" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Poison Gas", "Tackle"]
   },
   "Weezing" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Poison Gas", "Tackle", "Smog", "Self-Destruct"]
   },
   "Rhyhorn" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Horn Attack", "Tail Whip"]
   },
   "Rhydon" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Horn Attack", "Tail Whip", "Stomp", "Fury Attack"]
   },
   "Chansey" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound"]
   },
   "Tangela" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Constrict"]
   },
   "Kangaskhan" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Comet Punch"]
   },
   "Horsea" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Bubble"]
   },
   "Seadra" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Bubble", "Smokescreen", "Leer", "Water Gun"]
   },
   "Goldeen" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck", "Tail Whip"]
   },
   "Seaking" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck", "Tail Whip"]
   },
   "Staryu" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Harden"]
   },
   "Starmie" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Rapid Spin", "Recover", "Bubble Beam"]
   },
   "Mr. Mime" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Barrier"]
   },
   "Scyther" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Quick Attack", "Leer"]
   },
   "Jynx" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound", "Lick", "Lovely Kiss", "Powder Snow"]
   },
   "Electabuzz" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Quick Attack", "Leer", "Thunder Punch"]
   },
   "Magmar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Ember", "Leer", "Smog", "Fire Punch"]
   },
   "Pinsir" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Vice Grip"]
   },
   "Tauros" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Magikarp" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Splash"]
   },
   "Gyarados" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Thrash"]
   },
   "Lapras" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Water Gun", "Growl", "Sing"]
   },
   "Ditto" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Transform"]
   },
   "Eevee" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Tail Whip"]
   },
   "Vaporeon" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Tail Whip"]
   },
   "Jolteon" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Tail Whip"]
   },
   "Flareon" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Tail Whip"]
   },
   "Porygon" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Conversion", "Tackle"]
   },
   "Omanyte" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Constrict", "Withdraw"]
   },
   "Omastar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Constrict", "Withdraw", "Bite"]
   },
   "Kabuto" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Scratch", "Harden"]
   },
   "Kabutops" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Scratch", "Harden", "Absorb"]
   },
   "Aerodactyl" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Wing Attack"]
   },
   "Snorlax" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Articuno" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Gust", "Powder Snow"]
   },
   "Zapdos" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Peck", "Thunder Shock"]
   },
   "Moltres" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Wing Attack", "Ember"]
   },
   "Dratini" :
   {
@@ -573,422 +573,418 @@
   },
   "Dragonair" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Wrap", "Thunder Wave", "Twister"]
   },
   "Dragonite" :
   {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Mewtwo" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Mew" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Chikorita" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Bayleef" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Meganium" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Cyndaquil" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Quilava" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Typhlosion" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Totodile" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Croconaw" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Feraligatr" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Sentret" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Furret" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Hoothoot" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Noctowl" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Ledyba" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Ledian" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Spinarak" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Ariados" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Crobat" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Chinchou" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Lanturn" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Pichu" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Cleffa" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Igglybuff" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Togepi" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Togetic" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Natu" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Xatu" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Mareep" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Flaaffy" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Ampharos" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Bellossom" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Marill" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Azumarill" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Sudowoodo" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Politoed" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Hoppip" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Skiploom" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Jumpluff" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Aipom" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Sunkern" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Sunflora" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Yanma" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Wooper" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Quagsire" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Espeon" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Umbreon" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Murkrow" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Slowking" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Misdreavus" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Unown" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Wobbuffet" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Girafarig" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Pineco" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Forretress" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Dunsparce" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Gligar" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Steelix" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Snubbull" :
-  {
-    "Moves" : ["Leer", "Wrap"]
-  },
-  "Granbull" :
-  {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Wrap", "Thunder Wave", "Twister"]
   },
   "MewTwo" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Confusion", "Disable"]
+  },
+  "Mew" :
+  {
+    "Moves" : ["Pound"]
+  },
+  "Chikorita" :
+  {
+    "Moves" : ["Tackle", "Growl"]
+  },
+  "Bayleef" :
+  {
+    "Moves" : ["Tackle", "Growl", "Razor Leaf", "Reflect"]
+  },
+  "Meganium" :
+  {
+    "Moves" : ["Tackle", "Growl", "Razor Leaf", " Reflect"]
+  },
+  "Cyndaquil" :
+  {
+    "Moves" : ["Leer", "Tackle"]
+  },
+  "Quilava" :
+  {
+    "Moves" : ["Leer", "Tackle", "Smokescreen"]
+  },
+  "Typhlosion" :
+  {
+    "Moves" : ["Leer", "Smokescreen", "Tackle", "Ember"]
+  },
+  "Totodile" :
+  {
+    "Moves" : ["Scratch", "Leer"]
+  },
+  "Croconaw" :
+  {
+    "Moves" : ["Leer", "Scratch", "Rage"]
+  },
+  "Feraligatr" :
+  {
+    "Moves" : ["Leer", "Scratch", "Rage", "Water Gun"]
+  },
+  "Sentret" :
+  {
+    "Moves" : ["Tackle"]
+  },
+  "Furret" :
+  {
+    "Moves" : ["Scratch", "Defense Curl", "Quick Attack"]
+  },
+  "Hoothoot" :
+  {
+    "Moves" : ["Tackle", "Growl"]
+  },
+  "Noctowl" :
+  {
+    "Moves" : ["Tackle", "Growl", "Foresight", "Peck"]
+  },
+  "Ledyba" :
+  {
+    "Moves" : ["Tackle"]
+  },
+  "Ledian" :
+  {
+    "Moves" : ["Tackle", "Supersonic"]
+  },
+  "Spinarak" :
+  {
+    "Moves" : ["Poison Sting", "String Shot"]
+  },
+  "Ariados" :
+  {
+    "Moves" : ["Poison Sting", "String Shot", "Scary Face", "Constrict"]
+  },
+  "Crobat" :
+  {
+    "Moves" : ["Screech", "Leech Life", "Supersonic"]
+  },
+  "Chinchou" :
+  {
+    "Moves" : ["Bubble", "Thunder Wave"]
+  },
+  "Lanturn" :
+  {
+    "Moves" : ["Bubble", "Thunder Wave", "Supersonic"]
+  },
+  "Pichu" :
+  {
+    "Moves" : ["Thunder Shock", "Charm"]
+  },
+  "Cleffa" :
+  {
+    "Moves" : ["Pound", "Charm"]
+  },
+  "Igglybuff" :
+  {
+    "Moves" : ["Sing", "Charm"]
+  },
+  "Togepi" :
+  {
+    "Moves" : ["Growl", "Charm"]
+  },
+  "Togetic" :
+  {
+    "Moves" : ["Growl", "Charm"]
+  },
+  "Natu" :
+  {
+    "Moves" : ["Peck", "Leer"]
+  },
+  "Xatu" :
+  {
+    "Moves" : ["Peck", "Leer", "Night Shade"]
+  },
+  "Mareep" :
+  {
+    "Moves" : ["Tackle", "Growl"]
+  },
+  "Flaaffy" :
+  {
+    "Moves" : ["Tackle", "Growl", "Thunder Shock"]
+  },
+  "Ampharos" :
+  {
+    "Moves" : ["Tackle", "Growl", "Thunder Shock", "Thunder Wave"]
+  },
+  "Bellossom" :
+  {
+    "Moves" : ["Absorb", "Sweet Scent", "Stun Spore", "Petal Dance"]
+  },
+  "Marill" :
+  {
+    "Moves" : ["Tackle"]
+  },
+  "Azumarill" :
+  {
+    "Moves" : ["Tackle", "Defense Curl", "Tail Whip", "Water Gun"]
+  },
+  "Sudowoodo" :
+  {
+    "Moves" : ["Rock Throw", "Mimic"]
+  },
+  "Politoed" :
+  {
+    "Moves" : ["Water Gun", "Hypnosis", "Double Slap", "Perish Song"]
+  },
+  "Hoppip" :
+  {
+    "Moves" : ["Splash", "Synthesis"]
+  },
+  "Skiploom" :
+  {
+    "Moves" : ["Splash", "Synthesis", "Tail Whip", "Tackle"]
+  },
+  "Jumpluff" :
+  {
+    "Moves" : ["Splash", "Synthesis", "Tail Whip", "Tackle"]
+  },
+  "Aipom" :
+  {
+    "Moves" : ["Scratch", "Tail Whip"]
+  },
+  "Sunkern" :
+  {
+    "Moves" : ["Absorb"]
+  },
+  "Sunflora" :
+  {
+    "Moves" : ["Absorb", "Pound"]
+  },
+  "Yanma" :
+  {
+    "Moves" : ["Tackle", "Foresight"]
+  },
+  "Wooper" :
+  {
+    "Moves" : ["Water Gun", "Tail Whip"]
+  },
+  "Quagsire" :
+  {
+    "Moves" : ["Water Gun", "Tail Whip"]
+  },
+  "Espeon" :
+  {
+    "Moves" : ["Tackle", "Tail Whip"]
+  },
+  "Umbreon" :
+  {
+    "Moves" : ["Tackle", "Tail Whip"]
+  },
+  "Murkrow" :
+  {
+    "Moves" : ["Peck"]
+  },
+  "Slowking" :
+  {
+    "Moves" : ["Curse", "Tackle"]
+  },
+  "Misdreavus" :
+  {
+    "Moves" : ["Growl", "Psywave"]
+  },
+  "Unown" :
+  {
+    "Moves" : ["Hidden Power"]
+  },
+  "Wobbuffet" :
+  {
+    "Moves" : ["Counter", "Mirror Coat", "Safeguard", "Destiny Bond"]
+  },
+  "Girafarig" :
+  {
+    "Moves" : ["Tackle", "Growl", "Confusion", "Stomp"]
+  },
+  "Pineco" :
+  {
+    "Moves" : ["Tackle", "Protect"]
+  },
+  "Forretress" :
+  {
+    "Moves" : ["Tackle", "Protect", "Self-Destruct"]
+  },
+  "Dunsparce" :
+  {
+    "Moves" : ["Rage"]
+  },
+  "Gligar" :
+  {
+    "Moves" : ["Poison Sting"]
+  },
+  "Steelix" :
+  {
+    "Moves" : ["Tackle", "Screech"]
+  },
+  "Snubbull" :
+  {
+    "Moves" : ["Tackle", "Scary Face"]
+  },
+  "Granbull" :
+  {
+    "Moves" : ["Tackle", "Scary Face"]
   },
   "Qwilfish" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Poison Sting"]
   },
   "Scizor" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Quick Attack", "Leer"]
   },
   "Shuckle" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Constrict", "Withdraw"]
   },
   "Heracross" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Leer"]
   },
   "Sneasel" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Scratch"]
   },
   "Teddiursa" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Scratch"]
   },
   "Ursaring" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Scratch", "Lick", "Fury Swipes"]
   },
   "Slugma" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Smog"]
   },
   "Magcargo" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Smog", "Ember", "Rock Throw"]
   },
   "Swinub" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Piloswine" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Horn Attack", "Powder Snow", "Endure"]
   },
   "Corsola" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Remoraid" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Water Gun"]
   },
   "Octillery" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Water Gun"]
   },
   "Delibird" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Present"]
   },
   "Mantine" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Bubble"]
   },
   "Skarmory" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Peck"]
   },
   "Houndour" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Ember"]
   },
   "Houndoom" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Ember"]
   },
   "Kingdra" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bubble", "Smokescreen", "Water Gun"]
   },
   "Phanpy" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle", "Growl"]
   },
   "Donphan" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Horn Attack", "Growl"]
   },
   "Porygon2" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Conversion", "Tackle"]
   },
   "Stantler" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Smeargle" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Sketch"]
   },
   "Tyrogue" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Hitmontop" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Rolling Kick"]
   },
   "Smoochum" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound", "Lick"]
   },
   "Elekid" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Quick Attack"]
   },
   "Magby" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Ember"]
   },
   "Miltank" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Tackle"]
   },
   "Blissey" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Pound"]
   },
   "Raikou" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Bite", "Leer"]
   },
   "Entei" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bite"]
   },
   "Suicune" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bite"]
   },
   "Larvitar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bite"]
   },
   "Pupitar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bite", "Sandstorm", "Screech"]
   },
   "Tyranitar" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Leer", "Bite", "Sandstorm", "Screech"]
   },
   "Lugia" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Aeroblast"]
   },
   "Ho-Oh" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Sacred Fire"]
   },
   "Celebi" :
   {
-    "Moves" : ["Leer", "Wrap"]
+    "Moves" : ["Confusion", "Recover", "Leech Seed"]
   }
 }

@@ -1884,9 +1884,9 @@
     "Type 1" : "Dragon",
     "Type 2" : "Flying"
   },
-  "Mewtwo" :
+  "MewTwo" :
   {
-    "Name" : "Mewtwo",
+    "Name" : "MewTwo",
     "Level" : 1,
     "HP" : 106,
     "Attack" : 110,
@@ -2675,19 +2675,6 @@
     "Special Defense" : 60,
     "Speed" : 45,
     "Type 1" : "Fairy",
-    "Type 2" : ""
-  },
-  "MewTwo" :
-  {
-    "Name" : "MewTwo",
-    "Level" : 81,
-    "HP" : 106,
-    "Attack" : 110,
-    "Defense" : 90,
-    "Special Attack" : 154,
-    "Special Defense" : 90,
-    "Speed" : 130,
-    "Type 1" : "Psychic",
     "Type 2" : ""
   },
   "Qwilfish" :
