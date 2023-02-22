@@ -7,22 +7,23 @@
 
 class PokeMove{
 public:
-    PokeMove(std::string name, std::string poketype, int power, int pp, int accuracy, std::string priority, int effect, int effect_chance);
+    PokeMove(const std::string& name);
     ~PokeMove();
     std::string move_type();
     std::string move_definition();
-    int eval_effect_chance();
+    int eval_effect_chance() const;
+    std::map<std::string,int> move_stats();
+    std::map<std::string,std::string> move_info();
 
 
 private:
     std::string name;
-    std::string poketype;
+    std::string movetype;
     int power;
     int pp;
     int accuracy;
     std::string priority;
-    int effect;
-    int effect_chance;
+    std::string effect;
 
 };
 

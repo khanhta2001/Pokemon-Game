@@ -1,48 +1,43 @@
 #include <map>
-#include <utility>
-#include <vector>
-#include <cmath>
-#include <iostream>
 #include "pokemon.h"
 #include "PokeMove.h"
+#include "io_functions.h"
 
-PokeMove::PokeMove(std::string name, std::string poketype, int power, int pp, int accuracy, std::string priority, int effect, int effect_chance) {
-    PokeMove::name = std::move(name);
-    PokeMove::poketype = std::move(poketype);
-    PokeMove::power = power;
-    PokeMove::pp = pp;
-    PokeMove::accuracy = accuracy;
-    PokeMove::priority = std::move(priority);
-    PokeMove::effect = std::move(effect);
-    PokeMove::effect_chance = effect_chance;
+PokeMove::PokeMove(const std::string& move_name) {
+    io_functions stats = io_functions();
+    std::map<std::string,std::map<std::string,std::string>> move_stats = stats.stats_info("moves_stats");
+    std::map<std::string,std::string> moves = move_stats[move_name];
+    PokeMove::name = moves["Name"];
+    PokeMove::movetype = moves["Type"];
+    PokeMove::power = stoi(moves["Power"]);
+    PokeMove::pp = stoi(moves["PP"]);
+    PokeMove::accuracy = stoi(moves["Accuracy"]);
+    PokeMove::effect = moves["Effect"];
 }
 
-PokeMove::~PokeMove() {
-
-}
+PokeMove::~PokeMove() = default;
 
 std::string PokeMove::move_type() {
-    return PokeMove::poketype;
+    return PokeMove::movetype;
 }
 
 std::string PokeMove::move_definition() {
-    std::string def = "Name: " + PokeMove::name + ", pokeType: " + PokeMove::poketype;
+    std::string def = "Name: " + PokeMove::name + ", pokeType: " + PokeMove::movetype;
     return def;
 }
 
-int PokeMove::eval_effect_chance() {
-    if (PokeMove::effect == 0){
-        return 0;
-    }
-    else if (PokeMove::effect_chance == 0){
-        return 0;
-    }
-    else{
-        if ((rand()%100 + 1) > PokeMove::effect_chance){
-            return 0;
-        }
-        else{
-            return 1;
-        }
-    }
+std::map<std::string,int> PokeMove::move_stats() {
+    std::map<std::string, int> stats = {{"Power",          PokeMove::power},
+                                        {"PP",         PokeMove::pp},
+                                        {"Accuracy",  PokeMove::accuracy}};
+    return stats;
 }
+
+std::map<std::string,std::string> PokeMove::move_info() {
+    std::map<std::string, std::string> stats = {{"Name",          PokeMove::name},
+                                                {"Type",         PokeMove::movetype},
+                                                {"Effect",         PokeMove::effect}};
+    return stats;
+}
+
+
