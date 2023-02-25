@@ -21,9 +21,9 @@ private:
     initialize_team team1;
     initialize_team team2;
     static int eval_crit(int base_speed);
-    int calc_damage(int level, int power, int attack, int defense, double stab_bonus, double type_bonus, std::string move_effect);
-    std::vector<std::string> process_attack(pokemon pokemon1, pokemon pokemon2);
-    double get_type_effectiveness(pokemon pokeMove, std::vector<std::string> defense_type);
+    double calc_damage(int level, int basePower, double attack, double defense, double stab_bonus, double move_modifier, double move_effect );
+    std::vector<std::string> process_attack(pokemon pokemon1, pokemon pokemon2, PokeMove move);
+    double get_type_effectiveness(std::string move_type, const std::string& defender_type_one, const std::string& defender_type_two);
 };
 
 

@@ -39,11 +39,11 @@ std::map<std::string,std::map<std::string,std::string>> io_functions::stats_info
         const rapidjson::Value& val = itr->value;
         std::map<std::string,std::string> map2;
         for (rapidjson::Value::ConstMemberIterator ptr = val.MemberBegin(); ptr != val.MemberEnd(); ++ptr) {
-            if (!ptr->value.IsInt()){
+            if (!ptr->value.IsDouble() and !ptr->value.IsInt()){
                 map2[ptr->name.GetString()] = ptr->value.GetString();
             }
             else{
-                map2[ptr->name.GetString()] = std::to_string(ptr->value.GetInt());
+                map2[ptr->name.GetString()] = std::to_string(ptr->value.GetDouble());
             }
         }
         HashMap[itr->name.GetString()] = map2;
@@ -69,6 +69,12 @@ std::map<std::string, std::vector<std::string>> io_functions::moves_info() {
         rapidjson::Value::ConstMemberIterator ptr = val.MemberBegin();
         auto value = ptr->value.GetArray();
         for (int i = 0; i < value.Size();i++){
+            if (!ptr->value.IsDouble() and !ptr->value.IsInt()){
+                moves.emplace_back(value[i].GetString());
+            }
+            else{
+                moves.emplace_back(std::to_string(value[i].GetDouble()));
+            }
             moves.emplace_back(value[i].GetString());
         }
         HashMap[itr->name.GetString()] = moves;

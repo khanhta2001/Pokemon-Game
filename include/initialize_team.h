@@ -9,7 +9,6 @@ public:
     initialize_team();
     ~initialize_team();
     void team(pokemon* pokemon);
-    void print();
     bool empty();
     void report_dead(pokemon* pokemon);
     pokemon poke(const std::string& name);

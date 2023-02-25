@@ -1,6 +1,4 @@
-#include <iostream>
 #include "initialize_team.h"
-#include <vector>
 
 initialize_team::initialize_team() {
     initialize_team::poke_team = {};
@@ -21,12 +19,6 @@ bool initialize_team::empty(){
         return true;
     }
     return false;
-}
-void initialize_team::print(){
-    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
-        i->first->print_name();
-    }
-    std::cout << std::endl;
 }
 
 pokemon initialize_team::poke(const std::string& name){
