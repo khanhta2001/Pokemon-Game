@@ -6,33 +6,6 @@ battle::battle() = default;
 
 battle::~battle() = default;
 
-std::string battle::pick_poke(initialize_team team) {
-    if (!team.empty()){
-        std::cout << "Pick one of your pokemon below " << std::endl;
-        std::string pick_poke;
-        std::cin >> pick_poke;
-        bool check_poke = team.check_poke(pick_poke);
-        while (!check_poke){
-            std::cout << "The pokemon you picked is not in the team! Please choose another pokemon" << std::endl;
-            std::cin >> pick_poke;
-            check_poke = team.check_poke(pick_poke);
-        }
-        std::cout << "You picked " << pick_poke << std::endl;
-        return pick_poke;
-    }
-    std::cout << "You ran out of pokemon! You lost." << std::endl;
-
-    return "bruh";
-}
-
-double type_modifier(std::string type1, std::string type2){
-    io_functions stats = io_functions();
-    std::map<std::string,std::map<std::string,std::string>> move_stats = stats.stats_info("type_damage");
-    double modifier = std::stoi(move_stats[type1][type2]);
-    return modifier;
-}
-
-
 int battle::eval_crit(int base_speed) {
     int random = (rand()%512)+1;
     return random < base_speed;
@@ -60,7 +33,7 @@ double battle::calc_damage(int level, int basePower, double attack, double defen
 }
 
 std::vector<std::string> battle::process_attack(pokemon attacker, pokemon defender, PokeMove move) {
-    std::string move_attacker = attacker.get_name() + " uses " + move.move_info("Name") + "!";
+    std::string move_attacker = attacker.get_info("Name") + " uses " + move.move_info("Name") + "!";
     std::vector<std::string> output = {move_attacker};
     if (move.move_stats("Accuracy") != -1){
         if ((rand()%100 +1) >= move.move_stats("Accuracy")){
@@ -110,82 +83,130 @@ std::vector<std::string> battle::process_attack(pokemon attacker, pokemon defend
 
 void battle::simulate_battle(initialize_team team1, initialize_team team2) {
     int round = 1;
-    std::string team1_poke;
-    std::string team2_poke;
     std::string dead;
     int sleep_counter = 0;
     pokemon first_pokemon = pokemon();
     pokemon second_pokemon = pokemon();
     int counter = rand()%7 + 1;
-    while (true){
-        std::cout << "Round " << round << std::endl;
-        if (round == 1){
+    while (team1.size() <= 5 and team2.size() <= 5){
+        if (team1.size() < 5){
             std::cout << "Team 1! Pick your Pokemon" << std::endl;
-            team1_poke = battle::pick_poke(team1);
-            std::cout << "Team 2! Pick your pokemon" << std::endl;
-            team2_poke = battle::pick_poke(team2);
+            std::cout << "Pick one of your pokemon below " << std::endl;
+            std::string pick_poke;
+            std::cin >> pick_poke;
+            pokemon poke = pokemon(pick_poke);
+            bool check_poke = team1.check_poke(pick_poke);
+            if (check_poke){
+                std::cout << "You have selected the same pokemon!" << std::endl;
+            }
+
+            else{
+                team1.add_poke(poke);
+                std::cout << "You picked " << pick_poke << std::endl;
+            };
+        }
+        if (team1.size() == 5 || team2.size() < 5){
+            std::cout << "Team 2! Pick your Pokemon" << std::endl;
+            std::cout << "Pick one of your pokemon below " << std::endl;
+            std::string pick_poke;
+            std::cin >> pick_poke;
+            pokemon poke = pokemon(pick_poke);
+            bool check_poke = team2.check_poke(pick_poke);
+            if (check_poke){
+                std::cout << "You have selected the same pokemon!" << std::endl;
+            }
+            else{
+                team2.add_poke(poke);
+            };
+        }
+    }
+    while (team1.total_dead() <= 5 and team2.total_dead() <= 5){
+        std::cout << "Round " << round << std::endl;
+        pokemon poke1 = team1.poke("Pikachu");
+        pokemon poke2 = team2.poke("Pikachu");
+        if (poke1.poke_status() == "Paralyzed"){
+            int new_speed = poke1.get_stats("Speed") / 4;
+            poke1.change_stats("Speed", new_speed);
+        }
+        if (poke2.poke_status() == "Paralyzed"){
+            int new_speed = poke2.get_stats("Speed") / 4;
+            poke2.change_stats("Speed", new_speed);
+        }
+        bool poke_first = (poke2.get_stats("Speed") < poke1.get_stats("Speed")) or (poke2.get_stats("Speed") == poke1.get_stats("Speed") and (rand()%1) == 0);
+        if (poke_first){
+            first_pokemon = poke1;
+            second_pokemon = poke2;
         }
         else{
-            if (dead == "team 1"){
-                std::cout << "Team 1! Pick your Pokemon" << std::endl;
-                team1_poke = battle::pick_poke(team1);
-            }
-            else{
-                std::cout << "Team 2! Pick your pokemon" << std::endl;
-                team2_poke = battle::pick_poke(team2);
-            }
+            first_pokemon = poke2;
+            second_pokemon = poke1;
         }
-        pokemon poke1 = team1.poke(team1_poke);
-        pokemon poke2 = team2.poke(team2_poke);
-        int poke1_hp = poke1.get_stats("HP");
-        int poke2_hp = poke1.get_stats("HP");
-        if (poke1_hp > 0 and poke2_hp > 0){
-            if (poke1.poke_status() == "Paralyzed"){
-                int new_speed = poke1.get_stats("Speed") / 4;
-                poke1.change_stats("Speed", new_speed);
-            }
-            if (poke2.poke_status() == "Paralyzed"){
-                int new_speed = poke2.get_stats("Speed") / 4;
-                poke2.change_stats("Speed", new_speed);
-            }
-            bool poke_first = (poke2.get_stats("Speed") < poke1.get_stats("Speed")) or (poke2.get_stats("Speed") == poke1.get_stats("Speed") and (rand()%1) == 0);
-            if (poke_first){
-                pokemon first_pokemon = poke1;
-                pokemon second_pokemon = poke2;
+        if (first_pokemon.poke_status() != "Sleeping"){
+            sleep_counter = counter;
+        }
+        if (first_pokemon.poke_status() == "Paralyzed" and (rand()%4 + 1) == 1){
+            std::cout << first_pokemon.get_info("Name") << " is paralyzed! It cannot move!" << std::endl;
+        }
+        else if (first_pokemon.poke_status() == "Frozen"){
+            std::cout << first_pokemon.get_info("Name") << " is frozen solid" << std::endl;
+        }
+        else if (first_pokemon.poke_status() == "Sleeping"){
+            sleep_counter -= 1;
+            if (sleep_counter > 0){
+                std::cout << first_pokemon.get_info("Name") << " is fast asleep" << std::endl;
             }
             else{
-                pokemon first_pokemon = poke2;
-                pokemon second_pokemon = poke1;
-            }
-            if (poke1.poke_status() != "Sleeping"){
+                std::cout << first_pokemon.get_info("Name") << " woke up!" << std::endl;
+                first_pokemon.change_status("None");
                 sleep_counter = counter;
             }
-            if (poke1.poke_status() == "Paralyzed" and (rand()%4 + 1) == 1){
-                std::cout << poke1.get_info("Name") << " is paralyzed! It cannot move!" << std::endl;
+        }
+        else{
+            PokeMove move = first_pokemon.get_moves();
+            std::vector<std::string> results = process_attack(first_pokemon, second_pokemon, move);
+            for (int i =0; i < results.size(); i++){
+                std::cout << results[i] << std::endl;
             }
-            else if (poke1.poke_status() == "Frozen"){
-                std::cout << poke1.get_info("Name") << " is frozen solid" << std::endl;
+        }
+        if (second_pokemon.get_stats("HP") > 0){
+            if (second_pokemon.poke_status() == "Paralyzed" and (rand()%4 + 1) == 1){
+                std::cout << second_pokemon.get_info("Name") << " is paralyzed! It cannot move!" << std::endl;
             }
-            else if (poke1.poke_status() == "Sleeping"){
+            else if (second_pokemon.poke_status() == "Frozen"){
+                std::cout << second_pokemon.get_info("Name") << " is frozen solid" << std::endl;
+            }
+            else if (second_pokemon.poke_status() == "Sleeping"){
                 sleep_counter -= 1;
                 if (sleep_counter > 0){
-                    std::cout << poke1.get_info("Name") << " is fast asleep" << std::endl;
+                    std::cout << second_pokemon.get_info("Name") << " is fast asleep" << std::endl;
                 }
                 else{
-                    std::cout << poke1.get_info("Name") << " woke up!" << std::endl;
-                    poke1.poke_status() == "None";
+                    std::cout << second_pokemon.get_info("Name") << " woke up!" << std::endl;
+                    second_pokemon.change_status("None");
                     sleep_counter = counter;
                 }
             }
             else{
-                PokeMove move = first_pokemon.get_moves();
+                PokeMove move = second_pokemon.get_moves();
                 std::vector<std::string> results = process_attack(first_pokemon, second_pokemon, move);
+                for (int i =0; i < results.size(); i++){
+                    std::cout << results[i] << std::endl;
+                }
             }
+            if (first_pokemon.get_stats("HP") == 0){
+                first_pokemon.change_status("Dead");
+                std::cout << first_pokemon.get_info("Name") << " has fainted!" << std::endl;
 
-
+                team1.add_death();
+            }
+            if (second_pokemon.get_stats("HP") == 0){
+                second_pokemon.change_status("Dead");
+                std::cout << second_pokemon.get_info("Name") << " has fainted!" << std::endl;
+                team2.add_death();
+            }
         }
 
 
-        break;
+        round += 1;
     }
 }

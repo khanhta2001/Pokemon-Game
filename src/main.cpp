@@ -1,11 +1,10 @@
-#include "pokemon.h"
+#include "battle.h"
+#include <iostream>
 
 int main() {
-    pokemon pokemon1 = pokemon("Pikachu");
-    pokemon pokemon2 = pokemon("Mew");
-    pokemon pokemon3 = pokemon("MewTwo");
-    pokemon pokemon4 = pokemon("Blastoise");
-    pokemon pokemon5 = pokemon("Bulbasaur");
-    pokemon pokemon6 = pokemon("Charmander");
+    battle test1 = battle();
+    initialize_team team1 = initialize_team();
+    initialize_team team2 = initialize_team();
+    test1.simulate_battle(team1, team2);
 
 }

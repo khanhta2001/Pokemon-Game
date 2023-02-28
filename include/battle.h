@@ -17,9 +17,6 @@ public:
     void simulate_battle(initialize_team team1, initialize_team team2);
 
 private:
-    std::string pick_poke(initialize_team team);
-    initialize_team team1;
-    initialize_team team2;
     static int eval_crit(int base_speed);
     double calc_damage(int level, int basePower, double attack, double defense, double stab_bonus, double move_modifier, double move_effect );
     std::vector<std::string> process_attack(pokemon pokemon1, pokemon pokemon2, PokeMove move);

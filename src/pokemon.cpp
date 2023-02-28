@@ -19,7 +19,7 @@ pokemon::pokemon(const std::string& pokemon_name){
     auto Special_Attack = std::stoi(poke["Special Attack"]);
     auto Special_Defense = std::stoi(poke["Special Defense"]);
     auto Speed = std::stoi(poke["Speed"]);
-    pokemon::name = poke["name"];
+    pokemon::name = poke["Name"];
     pokemon::hp = pokemon::hpCaculation(HP, Level, iv, ev);
     pokemon::attack = pokemon::statsCaculation("attack", Attack, Level, iv, ev);
     pokemon::defense = pokemon::statsCaculation("defense", Defense, Level, iv, ev);
@@ -74,10 +74,6 @@ std::string pokemon::poke_status(){
 
 void pokemon::change_status(std::string new_status){
     pokemon::status = std::move(new_status);
-}
-
-std::string pokemon::get_name() {
-    return pokemon::name;
 }
 
 int pokemon::get_stats(const std::string& stat_name) {

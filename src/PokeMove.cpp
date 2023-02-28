@@ -31,11 +31,6 @@ PokeMove::PokeMove(const std::string& move_name) {
 
 PokeMove::~PokeMove() = default;
 
-std::string PokeMove::move_definition() {
-    std::string def = "Name: " + PokeMove::name + ", pokeType: " + PokeMove::movetype;
-    return def;
-}
-
 int PokeMove::move_stats(const std::string& stat_name) {
     std::map<std::string, int> stats = {{"Power",          PokeMove::power},
                                         {"PP",         PokeMove::pp},

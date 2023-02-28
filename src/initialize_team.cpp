@@ -2,47 +2,38 @@
 
 initialize_team::initialize_team() {
     initialize_team::poke_team = {};
+    initialize_team::death = 0;
 }
 
 initialize_team::~initialize_team()= default;
 
-void initialize_team::team(pokemon* pokemon) {
-    initialize_team::poke_team.insert({pokemon,"Alive"});
+int initialize_team::size() {
+    return initialize_team::poke_team.size();
 }
-
-void initialize_team::report_dead(pokemon* pokemon) {
-    initialize_team::poke_team[pokemon] = "Dead";
+void initialize_team::add_poke(const pokemon& pokemon){
+    initialize_team::poke_team.emplace_back(pokemon);
 }
-
-bool initialize_team::empty(){
-    if (initialize_team::poke_team.empty()){
-        return true;
-    }
-    return false;
-}
-
-pokemon initialize_team::poke(const std::string& name){
-    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
-        std::string name_poke = i->first->get_name();
-        if (name_poke == name){
-            return *i->first;
-        }
-    }
+void initialize_team::add_death() {
+    initialize_team::death += 1;
 }
 
 int initialize_team::total_dead() {
-    int total = 0;
-    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
-        if (i->second == "Dead"){
-            total += 1;
+
+    return initialize_team::death;
+}
+
+pokemon initialize_team::poke(const std::string& name){
+    for (int i = 0; i < initialize_team::poke_team.size(); i++){
+        std::string name_poke = initialize_team::poke_team[i].get_info("Name");
+        if (name_poke == name){
+            return initialize_team::poke_team[i];
         }
     }
-    return total;
 }
 
 int initialize_team::check_poke(const std::string& name) {
-    for (auto i = initialize_team::poke_team.begin(); i != initialize_team::poke_team.end(); i++){
-        std::string name_poke = i->first->get_name();
+    for (int i = 0; i < initialize_team::poke_team.size(); i++){
+        std::string name_poke = initialize_team::poke_team[i].get_info("Name");
         if (name_poke == name){
             return true;
         }

@@ -15,7 +15,6 @@ public:
     int hpCaculation(int poke_hp, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev);
     int statsCaculation(const std::string& stat_name, int poke_stat, int poke_level, std::map<std::string,int> poke_iv, std::map<std::string,int> poke_ev);
     void change_stats(const std::string& stat_name, int new_stat_info);
-    std::string get_name();
     int get_stats(const std::string& stat_name);
     std::string get_info(const std::string& stat_name);
     PokeMove get_moves();
