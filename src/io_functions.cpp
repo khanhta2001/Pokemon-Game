@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include "rapidjson/document.h"
-#include <rapidjson/ostreamwrapper.h>
+#include "document.h"
+#include <ostreamwrapper.h>
 #include "pokemon.h"
 #include "io_functions.h"
 

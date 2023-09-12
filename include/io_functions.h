@@ -1,9 +1,9 @@
 
 #ifndef GAME_IO_FUNCTIONS_H
 #define GAME_IO_FUNCTIONS_H
-#include "rapidjson/document.h"
-#include "rapidjson/writer.h"
-#include "rapidjson/stringbuffer.h"
+#include "document.h"
+#include "writer.h"
+#include "stringbuffer.h"
 #include <string>
 #include <map>
 #include <vector>
